@@ -23,6 +23,7 @@
   ],
   "release": {
     "branches": "master",
+    "debug": true,
     "prepare": [
       "@semantic-release/changelog",
       "@semantic-release/npm",
