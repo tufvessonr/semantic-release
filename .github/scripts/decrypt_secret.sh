@@ -2,5 +2,5 @@
 
 mkdir $HOME/secrets
 
-gpg --quiet --batch --yes --decrypt --passphrase="$GITHUB_TOKEN" \
+gpg --quiet --batch --yes --decrypt --passphrase="$GH_TOKEN" \
 --output $HOME/secrets/my_secret.json my_secret.json.gpg
