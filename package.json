@@ -1,5 +1,6 @@
 {
   "private": true,
+  "repository": "https://github.com/tufvessonr/semantic-release.git",
   "scripts": {
     "dev": "next",
     "build": "next build",
