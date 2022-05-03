@@ -18,7 +18,7 @@ jobs:
       - name: Build app
         run: npm run build
       - name: Decrypt large secret
-        run: ../scripts/decrypt_secret.sh
+        run: $HOME/.github/scripts/decrypt_secret.sh
         env:
           GH_TOKEN: ${{ secrets. GH_TOKEN }}
       - name: Test printing your secret (Remove this step in production)
