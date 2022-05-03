@@ -2,6 +2,7 @@ name: Semantic release
 
 on:
   push:
+    repositoryUrl: https://github.com/tufvessonr/semantic-release.git
     branches:
       - master
 jobs:
